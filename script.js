@@ -10,7 +10,7 @@ const pageBackdrop = document.querySelector(".page-backdrop");
 /* Nomor WhatsApp dinonaktifkan (privasi). Tombol WhatsApp dialihkan ke
    halaman 404 hingga nomor siap ditampilkan kembali. */
 document.querySelectorAll("[data-whatsapp-link]").forEach((link) => {
-  link.setAttribute("href", "/404.html");
+  link.setAttribute("href", "#contact");
   link.removeAttribute("target");
   link.removeAttribute("rel");
 });
